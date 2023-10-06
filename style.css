@@ -1,0 +1,133 @@
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 9;
+    background-color: #070707;
+    color: white;
+    font-family: poppins bold, Arial, Helvetica, sans-serif;
+    margin: 5%;
+    /* gap: 1em; */
+}
+
+body.welkom {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 9;
+    background-color: #FBF6F0;
+    color: #2C2E35;
+    font-family: poppins bold, Arial, Helvetica, sans-serif;
+    margin: 5%;
+    gap: 1em;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.logo{
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+
+}
+
+.next {
+    background: none; 
+    border: none; 
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+}
+
+.welkom {
+    background-color: #EA477F;
+    border-radius: 6em;
+    text-align: left;
+    padding-left: 1em;
+    padding-block: 0.3em;
+}
+
+.uitlenen {
+    background-color: #52A2D6 ;
+    border-radius: 6em;
+    text-align: left;
+    padding-left: 1em;
+    padding-block: 0.3em;
+}
+
+.betaalgeschiedenis {
+    background-color: #B7C959;
+    border-radius: 6em;
+    text-align: left;
+    padding-left: 1em;
+    padding-block: 0.3em;
+}
+
+.reserveringen {
+    background-color: #F3A649 ;
+    border-radius: 6em;
+    text-align: left;
+    padding-left: 1em;
+    padding-block: 0.3em;
+}
+
+.deposito {
+    background-color: #3A3C98 ;
+    border-radius: 6em;
+    text-align: left;
+    padding-left: 1em;
+    padding-block: 0.3em;
+}
+
+.tellerstand{
+    background-color: #953782 ;
+    border-radius: 6em;
+    text-align: left;
+    padding-left: 1em;
+    padding-block: 0.3em;
+}
+
+.favoriete {
+    background-color: #FF0000 ;
+    border-radius: 6em;
+    text-align: left;
+    padding-left: 1em;
+    padding-block: 0.3em;
+}
+
+
+/* algemene styling voor de articles */
+article{
+    background-color: white;
+    color: #070707;
+}
+
+article:first-child {
+
+}
+
+article h2 {
+    margin:0 0 .25em;
+    line-height:1.1em;
+}
+
+article h3 {
+
+}
+
+article p {
+    margin: 0;
+}
+/* end algemene styling voor de articles */
+
+/* styling main */
+main {
+    display: grid;
+    gap: 1em;
+}
+/* eind styling main */
+

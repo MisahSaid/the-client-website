@@ -1,0 +1,104 @@
+.filterbar li {
+    display: inline-block;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 6em;
+    text-align: center;
+    padding-block: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0.1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.logo{
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+
+}
+
+.next {
+    background: none; 
+    border: none; 
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+}
+
+.zie-lijst {
+    background-color: #52A2D6;
+    text-align: center;
+    padding-block: 0.5em;
+    color: #FBF6F0;
+}
+
+
+/* styling reserveringen */
+
+
+
+.blok-reseveringen {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: (4 1fr);
+}
+
+h3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: left;
+    padding-left: 2em;
+}
+
+.it-end-with {
+    padding: 2em;
+    padding-top: 0;
+    
+}
+
+
+.container {
+    display: grid;
+    outline: solid greenyellow;
+    grid-template-columns: 1fr .2fr;
+    grid-template-rows: .15fr .1fr .5fr .5fr;
+    gap: 0;
+}
+
+.genre {
+    display: inline-block;
+    grid-area: 1 / 1 / 2 / 3 ;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding: ;
+    text-align: center;
+}
+
+.romance {
+    background-color: #EA477F;
+    color: white;
+}
+
+.container h2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+
+.resv-lijst {
+    grid-area: 4 / 2 / -1 / -1 ;
+    display: inline;
+    /* height: 60px;
+    width: 60px; */
+}
