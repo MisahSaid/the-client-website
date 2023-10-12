@@ -11,9 +11,17 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+De opdracht
+We hebben de opdracht gekregen om de gebruiksvriendelijkheid van mijn-omgeving te verbeteren. Dit omvat het personaliseren van het "familie-overzicht" voor elk lid en get optimaliseren van de gebruiksvriendelijkheid. Hierbij heb ik gekeken naar de twee specifieke user-stories:
+
+Boeken opslaan: als Oba-lid wil ik tijdens het zoeken boeken kunnen opslaan in een lijst, zodat ik deze later kan bekijken.
+
+Persoonlijke Boekentips: als Oba-lid wil ik persoonlijke boekentips op de website ontvangen om mijn leeservaring te verrijken.
+
+Doel van de opdracht
+Het doel van Oba als organisatie is om leren voor iedereen laagdremeplig te maken en mensen aan te moedigen om door te blijven leren.
+
+Het doel van de opdracht is om een gebruiksvriendelijke "familie-overzicht" in mijn-omgeving te creëren.
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
