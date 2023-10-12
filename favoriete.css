@@ -1,0 +1,92 @@
+/* header styling */
+.logo{
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+}
+/* end styling header */
+
+/* styling nav */
+.filterbar li {
+    display: inline-block;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 6em;
+    text-align: center;
+    padding-block: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0.1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* end styling nav */
+
+/* styling blokjes */
+.body{
+    background-color: FBF6F0;
+}
+
+.blok{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+
+article{
+    background-color: #FBF6F0;
+}
+
+article h3{
+    padding: 1em;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.cover {
+    padding: 2em;
+    grid-area: 1 / 1 / 2 / 2;
+    max-width: 200px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+article h2{
+    grid-area: 2/ 1 / 3 / 2;
+}
+
+article p{
+    grid-area: 3 / 1 / 4 / 2;
+}
+.genre{
+    display: inline-block;
+    grid-area: 1 / 1 / 2 / 3 ;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding: ;
+    text-align: center;
+}
+
+.romance{
+    background-color: #EA477F;
+    color: white;
+}
+
+.waar{
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+.reserv{
+    grid-area: 5 / 1 / 6 / 2;
+}

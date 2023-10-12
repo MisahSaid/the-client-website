@@ -39,13 +39,11 @@ ul {
 
 
 /* styling reserveringen */
-
-
-
 .blok-reseveringen {
     display: grid;
     grid-template-columns: repeat(3 1fr);
-    grid-template-rows: (4 1fr);
+    grid-template-rows: repeat(4 1fr);
+    position: relative;
 }
 
 h3 {
@@ -66,7 +64,7 @@ h3 {
 
 .container {
     display: grid;
-    outline: solid greenyellow;
+    /* outline: solid greenyellow; */
     grid-template-columns: 1fr .2fr;
     grid-template-rows: .15fr .1fr .5fr .5fr;
     gap: 0;
@@ -97,8 +95,43 @@ h3 {
 
 
 .resv-lijst {
-    grid-area: 4 / 2 / -1 / -1 ;
-    display: inline;
-    /* height: 60px;
-    width: 60px; */
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
 }
+/* styling reserveringen */
+
+/* styling favorierte */
+.blok-favoriete{
+    min-height: 450px;
+}
+
+.cover {
+    max-width: 200px;
+}
+
+.like {
+    max-width: 35px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid: 150px / auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.gg{
+    position: absolute;
+    margin: 0 0 0 -40px;
+}
+
+/* styling aanraders */
+
