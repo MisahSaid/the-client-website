@@ -3,7 +3,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 9;
-    background-color: #070707;
+    /* background-color: #FFF1E0; */
+    background-color: #2C2E35;
     color: white;
     font-family: poppins bold, Arial, Helvetica, sans-serif;
     margin: 5%;
@@ -41,64 +42,79 @@ ul {
     cursor: pointer;
     display: block;
     margin-left: auto;
+    /* background-color: #070707; */
 }
 
 .welkom {
     background-color: #EA477F;
     border-radius: 6em;
     text-align: left;
-    padding-left: 1em;
+    padding-left: 2em;
     padding-block: 0.3em;
+    margin-bottom: 1em;
 }
 
 .uitlenen {
     background-color: #52A2D6 ;
     border-radius: 6em;
     text-align: left;
-    padding-left: 1em;
+    padding-left: 2em;
     padding-block: 0.3em;
+    margin-bottom: 1em;
+
 }
 
 .betaalgeschiedenis {
     background-color: #B7C959;
     border-radius: 6em;
     text-align: left;
-    padding-left: 1em;
+    padding-left: 2em;
     padding-block: 0.3em;
+    margin-bottom: 1em;
 }
+
 
 .reserveringen {
     background-color: #F3A649 ;
     border-radius: 6em;
     text-align: left;
-    padding-left: 1em;
+    padding-left: 2em;
     padding-block: 0.3em;
+    margin-bottom: 1em;
 }
 
 .deposito {
     background-color: #3A3C98 ;
     border-radius: 6em;
     text-align: left;
-    padding-left: 1em;
+    padding-left: 2em;
     padding-block: 0.3em;
+    margin-bottom: 1em;
+
 }
 
 .tellerstand{
     background-color: #953782 ;
     border-radius: 6em;
     text-align: left;
-    padding-left: 1em;
+    padding-left: 2em;
     padding-block: 0.3em;
+    margin-bottom: 1em;
 }
 
 .favoriete {
     background-color: #FF0000 ;
     border-radius: 6em;
     text-align: left;
-    padding-left: 1em;
+    padding-left: 2em;
     padding-block: 0.3em;
+    margin-bottom: 1em;
 }
 
+.uitloggen{
+    padding-top: 2em;
+    padding-left: 2em;
+}
 
 /* algemene styling voor de articles */
 article{
